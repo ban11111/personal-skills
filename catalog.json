@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "skills": [
+    {
+      "id": "2d-character-animation",
+      "path": "skills/2d-character-animation",
+      "category": "game-development",
+      "tags": [
+        "2d",
+        "skeletal-animation",
+        "rigging",
+        "motion",
+        "performance"
+      ]
+    }
+  ]
+}

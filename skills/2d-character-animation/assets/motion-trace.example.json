@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "example_only": true,
+  "units": {
+    "time": "ms",
+    "position": "css-px"
+  },
+  "required_actors": [
+    "example-colleague"
+  ],
+  "budgets": {
+    "max_frame_ms": 34,
+    "p95_frame_ms": 20,
+    "max_speed_px_per_second": 600,
+    "position_slack_px": 1,
+    "scale_tolerance": 0.001,
+    "opacity_tolerance": 0.001,
+    "foot_drift_px": 0.5,
+    "grip_drift_px": 1,
+    "matrix_tolerance": 0.001,
+    "max_joint_speed_deg_per_second": 720,
+    "angle_slack_deg": 2
+  },
+  "samples": [
+    {
+      "t_ms": 0,
+      "actors": [
+        {
+          "id": "example-colleague",
+          "node": "same-rig-1",
+          "visible": true,
+          "root": [
+            0,
+            0
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "opacity": 1,
+          "feet": [
+            {
+              "id": "right",
+              "stance": true,
+              "contact": "right-contact-1",
+              "world": [
+                10,
+                180
+              ]
+            }
+          ],
+          "grips": [
+            {
+              "id": "bag",
+              "hand": [
+                30,
+                120
+              ],
+              "prop": [
+                30,
+                120
+              ]
+            }
+          ],
+          "joints": [
+            {
+              "id": "right-elbow",
+              "angle_deg": 20,
+              "min_deg": 0,
+              "max_deg": 130,
+              "bend_sign": 1
+            }
+          ],
+          "rigid_matrices": [
+            {
+              "id": "forearm",
+              "world": [
+                1,
+                0,
+                0,
+                1,
+                0,
+                100
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t_ms": 16,
+      "actors": [
+        {
+          "id": "example-colleague",
+          "node": "same-rig-1",
+          "visible": true,
+          "root": [
+            3,
+            0
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "opacity": 1,
+          "feet": [
+            {
+              "id": "right",
+              "stance": true,
+              "contact": "right-contact-1",
+              "world": [
+                10,
+                180
+              ]
+            }
+          ],
+          "grips": [
+            {
+              "id": "bag",
+              "hand": [
+                33,
+                120
+              ],
+              "prop": [
+                33,
+                120
+              ]
+            }
+          ],
+          "joints": [
+            {
+              "id": "right-elbow",
+              "angle_deg": 21,
+              "min_deg": 0,
+              "max_deg": 130,
+              "bend_sign": 1
+            }
+          ],
+          "rigid_matrices": [
+            {
+              "id": "forearm",
+              "world": [
+                1,
+                0,
+                0,
+                1,
+                3,
+                100
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t_ms": 32,
+      "actors": [
+        {
+          "id": "example-colleague",
+          "node": "same-rig-1",
+          "visible": true,
+          "root": [
+            6,
+            0
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "opacity": 1,
+          "feet": [
+            {
+              "id": "right",
+              "stance": true,
+              "contact": "right-contact-1",
+              "world": [
+                10,
+                180
+              ]
+            }
+          ],
+          "grips": [
+            {
+              "id": "bag",
+              "hand": [
+                36,
+                120
+              ],
+              "prop": [
+                36,
+                120
+              ]
+            }
+          ],
+          "joints": [
+            {
+              "id": "right-elbow",
+              "angle_deg": 22,
+              "min_deg": 0,
+              "max_deg": 130,
+              "bend_sign": 1
+            }
+          ],
+          "rigid_matrices": [
+            {
+              "id": "forearm",
+              "world": [
+                1,
+                0,
+                0,
+                1,
+                6,
+                100
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "t_ms": 48,
+      "actors": [
+        {
+          "id": "example-colleague",
+          "node": "same-rig-1",
+          "visible": true,
+          "root": [
+            9,
+            0
+          ],
+          "scale": [
+            1,
+            1
+          ],
+          "opacity": 1,
+          "feet": [
+            {
+              "id": "right",
+              "stance": true,
+              "contact": "right-contact-1",
+              "world": [
+                10,
+                180
+              ]
+            }
+          ],
+          "grips": [
+            {
+              "id": "bag",
+              "hand": [
+                39,
+                120
+              ],
+              "prop": [
+                39,
+                120
+              ]
+            }
+          ],
+          "joints": [
+            {
+              "id": "right-elbow",
+              "angle_deg": 23,
+              "min_deg": 0,
+              "max_deg": 130,
+              "bend_sign": 1
+            }
+          ],
+          "rigid_matrices": [
+            {
+              "id": "forearm",
+              "world": [
+                1,
+                0,
+                0,
+                1,
+                9,
+                100
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

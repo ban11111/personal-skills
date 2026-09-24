@@ -1,0 +1,303 @@
+{
+  "schema_version": 1,
+  "example_only": true,
+  "coordinate_system": {
+    "origin": "ground between feet",
+    "units": "rig-unit",
+    "x_axis": "right",
+    "y_axis": "down",
+    "positive_rotation": "clockwise",
+    "bone_zero_axis": "+y",
+    "side_naming": "anatomical"
+  },
+  "view": "front",
+  "mirrored": false,
+  "length_tolerance": 0.01,
+  "bones": [
+    {
+      "id": "root",
+      "parent": null,
+      "length": 0,
+      "offset": [
+        0,
+        0
+      ]
+    },
+    {
+      "id": "pelvis",
+      "parent": "root",
+      "length": 0,
+      "offset": [
+        0,
+        -72
+      ]
+    },
+    {
+      "id": "torso",
+      "parent": "pelvis",
+      "length": 48,
+      "offset": [
+        0,
+        -48
+      ]
+    },
+    {
+      "id": "left-arm-1",
+      "parent": "torso",
+      "length": 27,
+      "offset": [
+        18,
+        8
+      ],
+      "anatomical_side": "left",
+      "screen_side_at_rest": "right"
+    },
+    {
+      "id": "left-arm-2",
+      "parent": "left-arm-1",
+      "length": 25,
+      "offset": [
+        0,
+        27
+      ],
+      "anatomical_side": "left",
+      "screen_side_at_rest": "right",
+      "attachment_point": "parent-distal"
+    },
+    {
+      "id": "left-leg-1",
+      "parent": "pelvis",
+      "length": 36,
+      "offset": [
+        9,
+        0
+      ],
+      "anatomical_side": "left",
+      "screen_side_at_rest": "right"
+    },
+    {
+      "id": "left-leg-2",
+      "parent": "left-leg-1",
+      "length": 36,
+      "offset": [
+        0,
+        36
+      ],
+      "anatomical_side": "left",
+      "screen_side_at_rest": "right",
+      "attachment_point": "parent-distal"
+    },
+    {
+      "id": "right-arm-1",
+      "parent": "torso",
+      "length": 27,
+      "offset": [
+        -18,
+        8
+      ],
+      "anatomical_side": "right",
+      "screen_side_at_rest": "left"
+    },
+    {
+      "id": "right-arm-2",
+      "parent": "right-arm-1",
+      "length": 25,
+      "offset": [
+        0,
+        27
+      ],
+      "anatomical_side": "right",
+      "screen_side_at_rest": "left",
+      "attachment_point": "parent-distal"
+    },
+    {
+      "id": "right-leg-1",
+      "parent": "pelvis",
+      "length": 36,
+      "offset": [
+        -9,
+        0
+      ],
+      "anatomical_side": "right",
+      "screen_side_at_rest": "left"
+    },
+    {
+      "id": "right-leg-2",
+      "parent": "right-leg-1",
+      "length": 36,
+      "offset": [
+        0,
+        36
+      ],
+      "anatomical_side": "right",
+      "screen_side_at_rest": "left",
+      "attachment_point": "parent-distal"
+    }
+  ],
+  "attachments": [
+    {
+      "id": "torso-art",
+      "bone": "torso",
+      "size_px": [
+        34,
+        52
+      ],
+      "proximal_px": [
+        17,
+        2
+      ],
+      "distal_px": [
+        17,
+        50
+      ],
+      "scale": 1
+    },
+    {
+      "id": "left-arm-1-art",
+      "bone": "left-arm-1",
+      "size_px": [
+        10,
+        31
+      ],
+      "proximal_px": [
+        5,
+        2
+      ],
+      "distal_px": [
+        5,
+        29
+      ],
+      "scale": 1
+    },
+    {
+      "id": "left-arm-2-art",
+      "bone": "left-arm-2",
+      "size_px": [
+        10,
+        29
+      ],
+      "proximal_px": [
+        5,
+        2
+      ],
+      "distal_px": [
+        5,
+        27
+      ],
+      "scale": 1
+    },
+    {
+      "id": "left-leg-1-art",
+      "bone": "left-leg-1",
+      "size_px": [
+        10,
+        40
+      ],
+      "proximal_px": [
+        5,
+        2
+      ],
+      "distal_px": [
+        5,
+        38
+      ],
+      "scale": 1
+    },
+    {
+      "id": "left-leg-2-art",
+      "bone": "left-leg-2",
+      "size_px": [
+        10,
+        40
+      ],
+      "proximal_px": [
+        5,
+        2
+      ],
+      "distal_px": [
+        5,
+        38
+      ],
+      "scale": 1
+    },
+    {
+      "id": "right-arm-1-art",
+      "bone": "right-arm-1",
+      "size_px": [
+        10,
+        31
+      ],
+      "proximal_px": [
+        5,
+        2
+      ],
+      "distal_px": [
+        5,
+        29
+      ],
+      "scale": 1
+    },
+    {
+      "id": "right-arm-2-art",
+      "bone": "right-arm-2",
+      "size_px": [
+        10,
+        29
+      ],
+      "proximal_px": [
+        5,
+        2
+      ],
+      "distal_px": [
+        5,
+        27
+      ],
+      "scale": 1
+    },
+    {
+      "id": "right-leg-1-art",
+      "bone": "right-leg-1",
+      "size_px": [
+        10,
+        40
+      ],
+      "proximal_px": [
+        5,
+        2
+      ],
+      "distal_px": [
+        5,
+        38
+      ],
+      "scale": 1
+    },
+    {
+      "id": "right-leg-2-art",
+      "bone": "right-leg-2",
+      "size_px": [
+        10,
+        40
+      ],
+      "proximal_px": [
+        5,
+        2
+      ],
+      "distal_px": [
+        5,
+        38
+      ],
+      "scale": 1
+    }
+  ],
+  "draw_order": [
+    "left-arm-1-art",
+    "left-arm-2-art",
+    "left-leg-1-art",
+    "left-leg-2-art",
+    "torso-art",
+    "right-arm-1-art",
+    "right-arm-2-art",
+    "right-leg-1-art",
+    "right-leg-2-art"
+  ]
+}

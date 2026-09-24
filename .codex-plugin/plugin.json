@@ -1,0 +1,23 @@
+{
+  "name": "personal-skills",
+  "version": "0.1.0",
+  "description": "Reusable agent skills distilled from ban11111’s project work.",
+  "author": {
+    "name": "ban11111",
+    "url": "https://github.com/ban11111"
+  },
+  "repository": "https://github.com/ban11111/personal-skills",
+  "license": "MIT",
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Personal Skills · ban11111",
+    "shortDescription": "Practical skills with explicit checks and failure analysis.",
+    "developerName": "ban11111",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "Use the 2D character animation skill to diagnose and verify a skeletal animation."
+    ],
+    "longDescription": "Independent, reusable skills distilled from project failures, verified fixes and explicit acceptance procedures. Includes 2D character skeletal animation guidance, templates and read-only checkers."
+  }
+}

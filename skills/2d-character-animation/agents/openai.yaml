@@ -1,0 +1,4 @@
+interface:
+  display_name: "2D 人物骨骼动画"
+  short_description: "从人体结构、遮挡与连续步态到多人场景性能的制作和验收流程"
+  default_prompt: "请使用 $2d-character-animation 检查人物骨骼、步态、遮挡与性能，依据真实帧画面定位问题并验证修复。"
